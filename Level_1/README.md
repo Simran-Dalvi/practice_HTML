@@ -58,16 +58,45 @@ Type ! and wait for suggestions.
 
 2.3 Basic HTML Page
 
-```bash
-<!DOCTYPE html>  --> Defines the HTML Versio
-<html lang="en"> --> Parent of all HTML tags / Roo element
-<head> --> Parent of meta data tags
+```html
+ <!DOCTYPE html>  <!-- Defines the HTML Versio -->
+<html lang="en">  <!-- Parent of all HTML tags / Roo element-->
+<head>  <!--Parent of meta data tags-->
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> --> Title of the web page
+    <title>Document</title> <!-- Title of the web page-->
 </head>
-<body> --> Parent of content tag
-    <h1> Hello World! </h1> --> Heading tag
+<body> <!--Parent of content tag-->
+    <h1> Hello World! </h1>  <!--Heading tag-->
 </body>
 </html>
+```
+
+2.4 MDN Documentation
+
+1. Visit https://developer.mozilla.org/
+2. Official resource for HTML
+3. Offers comprehensive guides and tutorials
+4. Includes examples for real-world use
+5. Updated with latest HTML features
+6. Trusted by developers worldwide.
+
+2.5 Comments
+
+1. used to add notes in HTML code
+2. Not displayed on the web page
+3. Syntax: <!-- Comment here-->
+4. Helpful for code organization
+5. Can be multi-line or single-line
+
+2.6 Case Sensitivity
+
+1. HTML is case-insensitive for tag names
+2. Attribute names are also case-insensitive
+3. Best practice: use lowercase for consistency
+
+```html
+<html> = <HTML>
+<p> = <P>
+<head> = <HEAD>
 ```
