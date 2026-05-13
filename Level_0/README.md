@@ -63,7 +63,7 @@ Chapter 2. Website Components And Fundamentals
 
 2.3 Role of Browser
 
-![image](images\img1.png)
+![image](../images/img1.png)
 (downloads all the pages on the client side and then renders it as the web page.)
 
 1. Display Web page: Turns HTML code into what you see on screen.

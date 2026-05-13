@@ -33,7 +33,7 @@ http://127.0.0.1/ is the local host
 
 1.4 Importance of index.html
 
-![image](practice_HTML\images\img2.png)
+![image](../images/img2.png)
 
 1. Default name of a website's homepage.
 2. First page users see when visiting a website
@@ -47,7 +47,7 @@ Chapter 2. Basics of HTML
 
 2.1 What are Tags
 
-![image](images\img3.png)
+![image](../images/img3.png)
 1. Elements that are used to create a website are called HTML Tags.
 2. Tags can contain content ot other HTML tags.
 3. Define elements like text, images, links.
