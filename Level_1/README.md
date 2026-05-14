@@ -1,7 +1,5 @@
 HTML Basics
 
-<!-- Images not rendering -->
-
 Chapter 1. Starting up
 
 1.1 First file using Text Editor
