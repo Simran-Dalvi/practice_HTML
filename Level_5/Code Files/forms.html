@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tags</title>
+</head>
+<body>
+    <h1>Types of elements in a form.</h1>
+    <form action="/contact-me.php">
+        <label for="name"> Username : </label>
+        <input type="text" id="name" placeholder="Name" required="True"> <br>
+        Password : <input type="password"><br>
+        Date : <input type="date"> <br>
+        File : <input type="file"> <br>
+        Color : <input type="color"> <br>
+        Price Range : <input type="range"> <br>
+        Button : <input type="button" value="poked"> <br>  <!-- we have to define the value for the button. it shows the text inside the button -->
+        <br>
+        Radio buttons: <br>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="Male"> <br>
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="Female"> <br>
+
+            <label for="other">Other </label> <!--Clicking on label name also works now-->
+            <input type="radio" id="other" name="gender" value="Other"> <br>
+
+            <!-- to choose one between many, all values should have same name.
+             eg. if name is gender all radio buttons with name "gender will be activated, 
+             so we choose one gender from these.
+             if names for the radio buttons are different we colud select more buttons cause they are not in the same category. " -->
+
+
+        <br>
+        Checkbox: <br>
+            <label for="C">C</label>
+            <input type="checkbox" id="C" name="lang" value="C">
+
+            <label for="Java">java</label>
+            <input type="checkbox" id="Java" name="lang" value="Java">
+
+            <label for="Python">Python</label>
+            <input type="checkbox" id="Python" name="lang" value="Python">
+        <br>
+        <br>
+        <!-- Wanna use radio bitton buut the options are too many.
+         for example select your contry. there are around 200 countries in the world. -->
+         <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Germany">Germany</option>
+            <option value="Italy">Italy</option>
+            <option value="other">Other</option>
+         </select><br>
+        <br>
+        <textarea name="story" id="story" rows="5" cols="30"> Default text hehe.</textarea>
+        <br>
+        <input type="submit"> <br>
+    </form>
+</body>
+</html>

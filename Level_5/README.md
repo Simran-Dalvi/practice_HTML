@@ -40,8 +40,64 @@ Chapter 2. Table Tag
 
 2.3 Col Spans
 
-1. Attribute:
+1. Attribute: Uses the colspan attribute in `<td>` or `<th>` taags.
+2. Purpose: Allows a cell to span multiple columns horizontally.
+3. Alignment: takes the space of the specified number of columns.
+4. Layout: Useful for combining cells to create complex table layouts.
 
 Chapter 3. Forms
 
+3.1 Input Tag
+
+1. purpose: Used withing a `<form>` element to collect user input.
+2. Self-Closing: The `<input>` tag is self-closing; dosen't require a closing tag.
+3. Attributes: Common attributes are name, value, placeholder, and required.
+
+3.2 Action attribute
+
+1. Purpose: Specifies the URL to which the form data should be sent when submitted.
+2. Default: If not specified, the form will be submitted to the current page's URL.
+3. Server-Side: Usually points to a server-side script (like PHP, Python, etc.) that processes the form data.
+
+3.3 Name and Value property
+
+* 'name' property:
+    * ID for Data: Identifies form elements when submitting.
+    * Unique: Should be unique to each element for clarity.
+
+* 'value' property:
+    * Default Data: Sets initial value for input elements.
+    * Sent to server: This is the data sent when form is submitted.
+
+3.4 label Tag
+
+1. Purpose: Adds a text description to form elements.
+2. for attribute: Connects the label to a specific form element using the element's id.
+3. Accessibility: Makes the form more accessible.
+4. Readability: Enhances form readability and usability.
+
+3.5 Input Type
+
+* Date
+* File
+* Color
+* Range
+* Button
+* Submit
+* Radio
+* Checkbox
+* Select
+
+* Text Area
+1. Pupose: `<textarea>` is used for multi-line text input in forms.
+    1. rows property: Specifies the visible number of lines in the textarea.
+    2. cols property: Sets the visible width measured in average character widths.
+2. Resizable: Some browsers allow users to manually resize the textarea.
+
 Chapter 4. iFrame Tag
+
+4.1 using iFrames
+
+1. Embedded Content: Allows you to embed another webpage or multimedia content within a webpage.
+2. src Attribute: Specifies the URL of the content to be embedded.
+3. Dimensions: Width and Height can be set using width and height attributes.
